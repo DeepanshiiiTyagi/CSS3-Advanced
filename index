@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<nav>
+<h1>Portfolio</h1>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Advanced CSS3 & Responsive Design</h2>
+<p>Internship Task Submission</p>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p>BCA student passionate about web development and responsive UI design.</p>
+</section>
+
+<section id="projects" class="grid">
+<div class="card">Project 1</div>
+<div class="card">Project 2</div>
+<div class="card">Project 3</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: your-email@example.com</p>
+</section>
+
+<footer>
+<p>© 2026 Portfolio</p>
+</footer>
+
+</body>
+</html>
